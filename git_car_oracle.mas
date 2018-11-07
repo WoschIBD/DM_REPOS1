@@ -1,0 +1,9 @@
+FILENAME=git_car_oracle, SUFFIX=SQLORA  , $                                     
+  SEGMENT=GIT_CAR_ORACLE, SEGTYPE=S0, $                                         
+    FIELDNAME=COUNTRY, ALIAS=COUNTRY, USAGE=A10, ACTUAL=A10, $                  
+    FIELDNAME=CAR, ALIAS=CAR, USAGE=A16, ACTUAL=A16, $                          
+    FIELDNAME=MODEL, ALIAS=MODEL, USAGE=A24, ACTUAL=A24, $                      
+    FIELDNAME=BODYTYPE, ALIAS=BODYTYPE, USAGE=A12, ACTUAL=A12, $                
+    FIELDNAME=DEALER_COST, ALIAS=DEALER_COST, USAGE=D7, ACTUAL=D8, $            
+    FIELDNAME=RETAIL_COST, ALIAS=RETAIL_COST, USAGE=D7, ACTUAL=D8, $            
+    FIELDNAME=SALES, ALIAS=SALES, USAGE=I6, ACTUAL=I4, $                        
