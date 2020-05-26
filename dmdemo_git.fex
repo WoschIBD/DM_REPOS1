@@ -57,7 +57,7 @@ FROM
       T1.PROD_NUM = T2.PROD_NUM ) 
  WHERE 
    T2.ORDYEAR > 2004  AND 
-   T1.PRODTYPE = 'Digital' 
+   T1.PRODTYPE = 'Analog' 
  GROUP BY 
    T2.STORE_CODE , 
    T2.PROD_NUM , 
