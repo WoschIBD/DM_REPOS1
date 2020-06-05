@@ -57,7 +57,7 @@ FROM
       T1.PROD_NUM = T2.PROD_NUM ) 
  WHERE 
    T2.ORDYEAR > 2004  AND 
-   T1.PRODTYPE = 'Analog'  AND 
+   (T1.PRODTYPE = 'Analog'  OR T1.PRODTYPE = 'Digital' )  AND 
    T1.QTY_IN_STOCK >= 2300 
  GROUP BY 
    T2.STORE_CODE , 
